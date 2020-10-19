@@ -1,0 +1,37 @@
+h1 {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #fff;
+}
+
+.card-row {
+  display: flex;
+  display: inline-block;
+  margin: 30px 0 25px;
+  text-decoration: none;
+}
+
+.card-item {
+  /* display: flex; */
+  flex: 1;
+  border: 1px solid #fff;
+  margin: 0 1rem;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e8e8e8;
+}
+
+.cards_item_img {
+  border-radius: 10px 10px 0px 0px;
+  height: 200px;
+  width: 250px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.cards_item_text {
+  color: #252e48;
+  font-size: 20px;
+}
